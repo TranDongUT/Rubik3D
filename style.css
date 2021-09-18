@@ -21,6 +21,35 @@ body{
     top: 20px;
 }
 
+.col{
+  display: flex;
+  justify-content: space-around;
+}
+
+.row{
+  height: 200px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.col span{
+  width: 2px;
+  height: 200px;
+  background-color: white;
+}
+
+.row span{
+  width: 200px;
+  height: 2px;
+  background-color: white;
+}
+
+
+
 .rubik1, .rubik2 {
     width: 200px;
     height: 200px;
@@ -77,10 +106,9 @@ body{
     width: 200px;
     height: 200px;
     position: absolute;
-    backface-visibility: hidden;
-    opacity: 0.6;
+    /* backface-visibility: hidden; */
+    opacity: 0.8;
 }
-
 
 .front{
     background-color: #fa5252;

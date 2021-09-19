@@ -23,7 +23,7 @@ body{
 
 .col{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .row{
@@ -33,7 +33,7 @@ body{
   left: 0;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .col span{
